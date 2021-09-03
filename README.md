@@ -1,8 +1,8 @@
 # Inventory-Management-System
 Function print_Sales():
-   Prints the Sales JSON File
+   Prints the Sales JSON File.
 Function print_product(dic):
-   Takes dictionary of Inventory as input and prints all the items in list
+   Takes dictionary of Inventory as input and prints all the items in list.
     
 Function updatestock(dic):    
    Takes dictionary of Inventory as input .
@@ -17,14 +17,14 @@ Function updatestock(dic):
 Function purchase(dic):
     Takes dictionary of Inventory as input .
     Then user have to input Product ID and Quantity:
-    If entered Quantity is greater than actual Quantity Output is:Insufficient Quantity
+    If entered Quantity is greater than actual Quantity Output is:Insufficient Quantity.
     Else Cost is calculated and Quantity mentioned is reduced from the stock.
-    Cost is displayed to the user and Inventory and Sales JSON is updated
+    Cost is displayed to the user and Inventory and Sales JSON is updated.
     
 
 Function Updaterecord(dic):
     Takes dictionary of Inventory as input .
-    Opens Records.json in write mode and updates it with dictionary of Inventory
+    Opens Records.json in write mode and updates it with dictionary of Inventory.
     
 
 Function Updatesales(name,cost,q,time):
@@ -34,11 +34,11 @@ Function Updatesales(name,cost,q,time):
     
 Function Addrecord(dic):
     Takes dictionary of Inventory as input .
-    Then user input Product Name, Quantity and Price
+    Then user input Product Name, Quantity and Price.
     Update the record of inventory with new Item.
 
 Main Function:
-Header File used:-from IPython.display import clear_output,JSON
+Header File used:-from IPython.display import clear_output,JSON.
 Output Menu:
   Welcome !!!
 
