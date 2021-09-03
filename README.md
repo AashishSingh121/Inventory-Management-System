@@ -8,7 +8,7 @@ Function updatestock(dic):
    Takes dictionary of Inventory as input .
    Then user have to input what he wants to change.
    
-        1. Add/Remove stock: You can add or reduce number of products.(*If number entered to reduce the              stock is greater than the actual quantity of product then it will be set to 0.)
+        1. Add/Remove stock: You can add or reduce number of products.(*If number entered to reduce the stock is greater than the actual quantity of product then it will be set to 0.)
         2. Change Price: Input new value of product
         3. Exit
         Calls Function Updaterecord(dic) to update the Inventory
